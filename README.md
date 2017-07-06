@@ -89,7 +89,7 @@ module.exports = {
             loader: 'elm-css-modules-loader',
           },
           {
-            loader: 'elm-webpack',
+            loader: 'elm-webpack-loader',
           }
         ],
       },
@@ -110,7 +110,7 @@ module.exports = {
         test: /\.elm$/,
         loaders: [
           'elm-css-modules-loader',
-          'elm-webpack',
+          'elm-webpack-loader',
         ],
       },
       ⋮
